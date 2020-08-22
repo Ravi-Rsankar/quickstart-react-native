@@ -20,6 +20,22 @@ This will install react-native-cli globally
 
 React Native has a built-in command line interface. Rather than install and manage a specific version of the CLI globally, we recommend you access the current version at runtime using `npx`, which ships with Node.js. With `npx react-native `, the current stable version of the CLI will be downloaded and executed at the time the command is run.
 
+### Running quickstart-kit
+
+Download the quickstart-kit from this repository.
+
+Execute the following commands: 
+
+```
+npm install
+cd android
+./gradlew clean
+cd ..
+react-native run-android
+```
+
+
+
 ### Creating a new application
 
 `npx react-native init Projectname`
