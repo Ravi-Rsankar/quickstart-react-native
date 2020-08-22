@@ -36,7 +36,7 @@ react-native run-android
 
 
 
-### Creating a new application
+### Creating a new application from scratch 
 
 `npx react-native init Projectname`
 
